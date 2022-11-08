@@ -17,19 +17,14 @@ function getArrayParams(arr) {
   return { min: min, max: max, avg: avg };
 }
   
-  
 
-
-// Задание 2
 function worker(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
-       arr1 = arr[i]
-    for (let j = 0; j < arr1.length; j++) {
-         sum += arr1[j];
-      }
+       sum += arr[i];
     }
-  return sum;
+
+    return sum;
 }
 
 function makeWork(arrOfArr, func) {
